@@ -1,0 +1,93 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header Styling */
+.header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+/* Styling for list items, headings, and unordered lists */
+li, h1, ul {
+    display: inline-block;
+}
+
+/* Adjusting the margin for the unordered list */
+ul {
+    margin-left: 70%;
+}
+
+/* Styling for list items */
+li {
+    color: gray;
+    cursor: pointer;
+}
+
+/* Hover effect for list items */
+li:hover {
+    color: greenyellow;
+}
+
+/* Styling for the search input */
+input {
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+/* Centering the search bar text */
+.searchbar {
+    text-align: center;
+}
+
+/* Styling for product images */
+img {
+    height: 400px;
+    width: 350px;
+}
+
+/* Styling for product boxes */
+.box {
+    border: 1px solid black;
+    display: inline-block;
+    width: 350px;
+    margin-top: 20px;
+}
+
+/* Hover effect for product boxes */
+.box:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Centering the products section text */
+.products {
+    text-align: center;
+}
+
+/* Styling for the about section */
+.about {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+/* Styling for the contact section */
+.contact {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+/* Hover effect for h4 elements */
+h4:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
